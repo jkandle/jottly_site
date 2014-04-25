@@ -1,0 +1,264 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  /*font: inherit;*/
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* RESET ENDS HERE */
+.nav{
+    list-style:none;
+    margin:0 auto;
+    padding:0;
+    text-align:center;
+    width:960px;
+  }
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
+}
+h1 {
+  font-family: "Century Gothic", helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 50px;
+  position:relative;
+  color:#7e243a;
+  margin-bottom: 32px;
+}
+h2 {
+  font-family: 'Century Gothic' helvetica sans-serif;
+  color:#0f365b;
+  font-size: 28px;
+  font-weight: bold;
+  position: relative;
+  left:20px;
+}
+h3 {
+  font-size:49px;  
+  color:#0f365b;
+  font-family:"Century Gothic" helvetica sans-serif;
+  text-align: center;
+  font-weight: bold;
+  margin: 25px auto;  
+}
+h4 {
+  font-size:30px;  
+  color:#0f365b;
+  font-family:"Century Gothic" helvetica sans-serif;
+  text-align: center;
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 20px 15px 20px 0px;
+}  
+h5 {
+  font-size:35px;  
+  color:#0f365b;
+  font-family:"Century Gothic" helvetica sans-serif;
+  text-align: left;
+  font-weight: bold;
+  margin: 0 auto; 
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+p {
+  font-family: Adobe Garamond Times new roman serif;
+  font-size: 16px;
+  color:black;
+  line-height: 1.75em;
+}
+#marketing p {
+  color:#7e243a;
+  position:relative;
+  width:290px;
+}
+#marketing {
+  position:relative;
+  padding-left: 40px;
+  margin:0 auto;
+  width:1280;
+  min-height: 500px;
+  background-image: url('..images/Jottly_take-team-top_logo.gif');
+}
+.free_button {
+  position:relative;
+  width:auto;
+  float:right;
+  padding-left: 75px;
+  top:205px;
+}
+div.free_button div {
+  display:relative;
+}
+.hr_red {
+  background-color: #7e243a;
+  height: 40px;
+  display:block;
+  clear:both;
+  margin-top:60px;
+  margin-bottom:0px;
+  
+}  
+.hr_gray {
+  background-color:#959ea8;
+  height: 10px;
+  margin-bottom: 55px;
+  margin-top:-2px;
+}
+.hr_blue {
+  background-color: #0f365b;
+  height: 40px;
+  display:block;
+  clear:both;
+  margin-bottom: 0px;
+}
+#benefits {
+  position: relative;
+  width:960px;
+  margin:0 auto;
+  top:65px;
+  margin-bottom:200px;
+  display:block;
+}
+div#benefits span.circle {
+  color: #828c97;
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+  display: block;
+  position: relative;
+  margin:0 auto 20px;
+}
+div#benefits p, h4 {
+  display:relative;
+  width:260px;
+}
+div#benefits p {
+  color:black;
+}
+.macbook {
+  display:relative;
+  float:left;
+  margin-right:50px;
+  margin-left:20px;
+  top:400px;
+  margin-bottom: 100px;
+}
+.dictionary_snippet {
+  margin: 0 auto;
+  position:absolute;
+  top:-180px;
+  left:-20px;
+}
+.dictionary_snippet2 {
+  margin: 0 auto;
+}
+.footer {
+  background-color: #7e243a;
+  height: 60px;
+  padding: 20px;
+  margin-top: 25px;
+}
+.footer_text {
+  font-family: "Century Gothic" helvetica sans-serif;
+  color:#ecd7a1;
+  position:relative;
+  float:right;
+  top:20px;
+  right:80px;
+}
+.footer_logo {
+  clear:both;
+  float:right; 
+  right:50px;
+  position:relative;
+}  
+#testimonials {
+  margin:40px auto;
+}
+.testimonial_content {
+  margin: 0 auto;
+  display:block;
+  position:relative;
+}
+.snippets {
+  position:relative;
+  margin:0 auto;
+  width:680px;
+  height:100px;
+}  
+#marketing_background {
+  display:relative;
+  height: 520px;
+  width:1280;
+  margin: 0 auto;
+  background:url(../images/Jottly_take-team-top_logo.gif) no-repeat;
+  background-position: center;
+  margin-top: -100px;
+}
+.snippet_2_container {
+  position:relative;
+  width: 620px;
+  top:-150px;
+  left:40px;
+}
+.column img {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#marketing img {
+  margin: 0 auto;
+  display: block;
+}
+.free_button h2 {
+  left:500 px;
+}
+#marketing_background img {
+}
+
+#testimonials img {
+  min-width: auto;
+  min-height: auto;
+  margin:20px;
+}
+.mast_message {
+  margin-top:40px;
+}
