@@ -247,6 +247,7 @@ div#benefits p {
 #marketing img {
   margin: 0 auto;
   display: block;
+
 }
 .free_button h2 {
   left:500 px;
@@ -258,6 +259,8 @@ div#benefits p {
   min-width: auto;
   min-height: auto;
   margin:20px;
+  max-width: 100%!important;
+  height: auto!important;
 }
 .mast_message {
   margin-top:40px;
